@@ -15,7 +15,7 @@ pipeline
         {
             steps
             {
-                echo "hello build"
+                echo "hello build_Loans"
                 sh 'mvn package'
             }
         }
