@@ -7,6 +7,7 @@ pipeline
         {
             steps
             {
+                echo "hello dwnld"
                 git 'https://github.com/intelliqittrainings/maven.git'
             }
         }
@@ -14,6 +15,7 @@ pipeline
         {
             steps
             {
+                echo "hello build"
                 sh 'mvn package'
             }
         }
