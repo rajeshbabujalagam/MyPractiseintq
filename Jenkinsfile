@@ -10,7 +10,7 @@ pipeline
         {
             steps
             {
-                echo "hello dwnld"
+                echo "hello dwnld only Loans"
                 echo "version nu is ${NEW_VERSION}"
                 git 'https://github.com/intelliqittrainings/maven.git'
             }
